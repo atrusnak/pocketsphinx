@@ -37,10 +37,10 @@ print ("String:",stringval, " ", s)
 
 s = config.get_boolean("-backtrace")
 print ("Boolean:", boolval, " ", s)
-config.set_boolean("-backtrace", boolval);
+config.set_boolean("-backtrace", boolval)
 s = config.get_boolean("-backtrace")
 print ("Boolean:", boolval, " ", s)
 
 config.set_string_extra("-something12321", "abc")
-print config.get_string("-something12321")
+#print config.get_string("-something12321")
 
